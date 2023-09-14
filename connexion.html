@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sophie Bluel - Page de connexion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Sophie Bluel <span>Architecte d'inteérieur</span></h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">projets</a></li>
+          <li>contact</li>
+          <li><img src="./assets/icons/instagram.png" alt="Instagram" /></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="contact">
+        <h2 id="login_page">Log in</h2>
+        <p class="error"></p>
+        <form id="form">
+          <label for="email" class="p_Email"> E-mail </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value="sophie.bluel@test.tld"
+          />
+          <label for="password" class="p_mdp"> Mot de passe </label>
+          <input type="password" id="password" name="password" value="S0phie" />
+          <input type="submit" value="Se connecter" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li>Mentions Légales</li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="./scripts/connexion.js"></script>
+  </body>
+</html>
